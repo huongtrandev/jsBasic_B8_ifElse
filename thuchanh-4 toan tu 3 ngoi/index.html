@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script>
+      let a = parseInt(prompt("Input a: "));
+      let b = parseInt(prompt("Input b: "));
+      let c = a + b < 4 ? "below" : "over";
+      // c < 4 ? "below" : "over";
+      alert(c);
+      // console.log(c < 4 ? "below" : "over");
+    </script> -->
+    <script>
+      let login = prompt("In put string: ");
+      let message =
+        login == "Employee"
+          ? "Hello"
+          : login == "Director"
+          ? "Greetings"
+          : login == ""
+          ? "no Login"
+          : "";
+      alert(message);
+    </script>
+  </body>
+</html>
